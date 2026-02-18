@@ -87,13 +87,10 @@ The monitoring system verifies that the application is running and reachable.
 How to Run Locally:
 Clone the repository:
 git clone <repository-url>
-
 Build Docker image:
 docker build -t app-name .
-
 Run container:
 docker run -d -p 80:80 app-name
-
 Open browser:
 http://localhost
 
