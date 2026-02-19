@@ -66,7 +66,7 @@ Jenkins authenticates using stored credentials and pushes images automatically.
 AWS Deployment:
 An AWS EC2 Ubuntu instance is used for production deployment.
 Steps performed:
-Launch EC2 instance (t2.micro)
+Launch EC2 instance (t3.micro)
 Configure Security Group:
 SSH (22) → restricted to personal IP
 HTTP (80) → open to public
